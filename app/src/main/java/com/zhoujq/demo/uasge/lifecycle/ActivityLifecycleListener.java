@@ -10,7 +10,7 @@ import com.zhoujq.demo.uasge.entity.UasgeDao;
 
 
 /**
- * Activity生命周期监听
+ * Activity生命周期监听，可以记录整个app使用情况
  * Application.registerActivityLifecycleCallbacks(ActivityLifecycleCallbacks callback)
  * Application.unregisterActivityLifecycleCallbacks(ActivityLifecycleCallbacks callback)
  */

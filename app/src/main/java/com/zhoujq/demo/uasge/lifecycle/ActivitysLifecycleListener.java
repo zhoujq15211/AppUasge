@@ -17,7 +17,7 @@ import java.util.Map;
 
 
 /**
- * Activity生命周期监听
+ * Activity生命周期监听,可以记录activity使用情况
  * Application.registerActivityLifecycleCallbacks(ActivityLifecycleCallbacks callback)
  * Application.unregisterActivityLifecycleCallbacks(ActivityLifecycleCallbacks callback)
  */

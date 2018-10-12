@@ -34,11 +34,16 @@ public class MyApp extends Application {
         return instances;
     }
 
-
+    /**
+     * 一般在第一个启动的activity中注册
+     */
     public void registerActivityLifecycleCallbacks() {
         registerActivityLifecycleCallbacks(lifecycleListener);
     }
 
+    /**
+     * 在最后一个activity destroy时候取消注册
+     */
     public void unregisterActivityLifecycleCallbacks() {
         unregisterActivityLifecycleCallbacks(lifecycleListener);
         lifecycleListener.clearUasges();
